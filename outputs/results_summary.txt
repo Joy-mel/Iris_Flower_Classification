@@ -1,0 +1,25 @@
+IRIS SPECIES CLASSIFICATION - RESULTS SUMMARY
+==================================================
+
+Dataset: 150 samples, 4 features, 3 classes
+Train/Test split: 120/30 (80/20, stratified)
+
+Model Accuracy Comparison:
+  Support Vector Machine: 100.00%
+  Logistic Regression: 93.33%
+  K-Nearest Neighbors: 93.33%
+  Decision Tree: 90.00%
+  Random Forest: 90.00%
+
+Best Model: Support Vector Machine (100.00% accuracy)
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       1.00      1.00      1.00        10
+ Iris-virginica       1.00      1.00      1.00        10
+
+       accuracy                           1.00        30
+      macro avg       1.00      1.00      1.00        30
+   weighted avg       1.00      1.00      1.00        30
